@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Montserrat:wght@100" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <h1>Dice Game</h1>
+
+    <div class="dice">
+      <p class="playerOne"></p>
+      <p class="playerOneScore"></p>
+      <img class="img1" src="images/dice6.png">
+    </div>
+    <div class="dice">
+      <p class="playerTwo"></p>
+      <p class="playerTwoScore"></p>
+      <img class="img2" src="images/dice6.png">
+    </div>
+
+
+
+    <div class="btn-container">
+      <button class="roll-btn" onclick="rollAgain()">
+        Roll <img class="btn-img" src="images/dice.png">
+      </button>
+      <button class="new-game-btn" onclick="restartGame()">New Game <img class="btn-img"
+          src="images/restart.png"></button>
+    </div>
+
+
+    <script src="dice.js"></script>
+</body>
+
+<footer>
+
+
+</footer>
+
+
+</html>
