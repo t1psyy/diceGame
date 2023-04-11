@@ -1,3 +1,3 @@
 # diceGame
 
-simple dice game with score, name imput and buttons to roll more and restart game.
+simple dice game with score, name imput and buttons to roll more or restart game.
