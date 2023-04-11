@@ -4,6 +4,7 @@ const playerTwoName = prompt("Podaj imię drugiego gracza:");
 document.querySelector("p.playerOne").innerHTML = playerOneName;
 document.querySelector("p.playerTwo").innerHTML = playerTwoName;
 
+document.querySelector("div.container").style.display = "block";
 document.querySelector("button").style.display = "block";
 document.querySelector("h1").style.display = "block";
 
